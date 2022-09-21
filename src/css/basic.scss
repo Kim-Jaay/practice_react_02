@@ -1,0 +1,26 @@
+$color-gray: #ddd;
+$font-big: 20px;
+$font-medium: 17px;
+$font-small: 14px;
+
+body{overflow-x: hidden;}
+
+.Wrapper{
+    min-width: 1420px;
+}
+
+.inner { width: 1420px; margin: 0 auto; }
+
+.inner {
+  display: flex; justify-content: space-between;
+
+  ul { display: flex; gap: 50px; line-height: 90px; font-size: 19px; font-weight: 500; }
+  // 헤더 액티브 언더바 생성
+  a {
+    position: relative; display: block;
+
+    &::after { content: ''; position: absolute; bottom: 25%; left: 50%; right: 0; width: 0; height: 2px; transform: translateX(-50%); background: $main-color; }
+
+    &.active::after { width: 100%; transition: 0.5s; }
+  }
+}
