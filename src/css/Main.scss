@@ -3,7 +3,9 @@ $mc: #F5EFE8;
 .MainVisual {
 	position: relative;
 
-	.MainSlider {width: 100vw; height: 100vh; object-fit: cover;}
+	.MainSlider {
+		figure>img{
+		width: 100vw; height: 100vh; object-fit: cover;}}
 	.slogan {
 		position: absolute; inset: 50% auto auto 50%; transform: translate(-50%,-50%); z-index: 2; color: $mc; font-size: 120px; text-align: center; font-weight: 900;
 
