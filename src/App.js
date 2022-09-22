@@ -1,16 +1,20 @@
 import { Route, Routes } from 'react-router-dom';
+import React from 'react'
+import './css/basic.scss';
 
 import Wrapper from './pages/Wrapper';
 import Header from './pages/Header';
 import Main from './pages/Main';
-import Sub01 from './pages/Sub01';
-import Sub02 from './pages/Sub02';
-import Sub03 from './pages/Sub03';
+import Explore from './pages/Explore';
+import What from './pages/What';
+import Place from './pages/Place';
 import Footer from './pages/Footer';
+import Top from './pages/Top';
 
 
-import React from 'react'
-import './css/basic.scss';
+
+
+
 
 const App = () => {
   return (
@@ -18,11 +22,12 @@ const App = () => {
       <Header />
       <Routes>
         <Route path='/' element={<Main />} />
-        <Route path='/sub01' element={<Sub01 />} />
-        <Route path='/sub02' element={<Sub02 />} />
-        <Route path='/sub03' element={<Sub03 />} />
+        <Route path='/Explore' element={<Explore />} />
+        <Route path='/What' element={<What />} />
+        <Route path='/Place' element={<Place />} />
       </Routes>
       <Footer />
+      <Top />
     </Wrapper>
   )
 }

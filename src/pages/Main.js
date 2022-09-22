@@ -4,10 +4,10 @@ import MainVisual from './MainVisual'
 
 const Main = () => {
     return (
-        <div className='Main'>
+        <main className='Main'>
             <MainVisual />
             <MainContent />
-        </div>
+        </main>
     )
 }
 
