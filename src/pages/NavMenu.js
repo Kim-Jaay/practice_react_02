@@ -2,9 +2,9 @@ import React from 'react'
 import { NavLink } from 'react-router-dom'
 
 const NAVLINK = [
-    { content: 'EXPLORE', link: '/sub01' },
-    { content: 'WHAT’S ON', link: '/sub02' },
-    { content: 'THE PLACE', link: '/sub03' },
+    { content: 'EXPLORE', link: '/explore' },
+    { content: 'WHAT’S ON', link: '/what' },
+    { content: 'THE PLACE', link: '/place' },
 ]
 
 const NavMenu = () => {

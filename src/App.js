@@ -6,10 +6,11 @@ import Main from './pages/Main';
 import Sub01 from './pages/Sub01';
 import Sub02 from './pages/Sub02';
 import Sub03 from './pages/Sub03';
-import Footer from './pages/Footer'
+import Footer from './pages/Footer';
 
 
 import React from 'react'
+import './css/basic.scss';
 
 const App = () => {
   return (

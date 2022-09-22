@@ -1,0 +1,37 @@
+$mc: #F5EFE8; 
+
+.MainVisual {
+    position: relative;
+
+    .MainSlider { width: 100%; height: 100vh; }
+    .slogan {
+        position: absolute; inset: 50% auto auto 50%; transform: translate(-50%,-50%); z-index: 2; color: $mc; font-size: 120px; text-align: center; font-weight: 900;
+
+        h2>span { font-family: 'Cormorant Infant', serif; font-size: 150px; font-weight: 1, 500; }
+        img { position: absolute; inset: 40% auto auto 25%; transform: translate(-50%,-50%); }
+    }
+    a {font-size: 15px; font-weight: 300; padding: 10px 30px; border: 1px solid $mc; border-radius: 30px;  position: absolute; inset: auto auto 100px 50% ; transform: translate(-50%,-50%); backdrop-filter: blur(10px); z-index: 2; color: $mc; }
+}
+
+
+.MainContent {
+
+
+    .con {
+        padding: 100px 0; width: calc(1420px + (100% - 1420px)/2); margin: auto 0 auto auto; display: flex; gap: 20px;
+
+        img { margin: 0 0 30px 0; }
+        h2 { font-size: 35px; font-family: 'Cormorant Infant', serif; margin: 0 0 20px 0; }
+        p { font-size: 15px; margin: 0 0 30px 0; }
+        a { border: 1px solid #444; display: inline-block; font-size: 15px; font-weight: 300; padding: 10px 30px; border-radius: 30px; }
+    }
+    .fixed {
+       padding: 400px 0;  position: relative; background: url(../../public/assets/images/main_fixed.png)no-repeat fixed center/cover;
+        .fix_con{position: relative;
+            img{position: absolute;inset: 50% auto auto 50%; transform: translate(-50%, -50%);}
+            .des{position: absolute; inset: 50% auto auto 50%; transform: translate(-50%, -50%); 
+            font-size: 170px; font-family: 'Cormorant Infant', serif; color: $mc; font-weight: 600;}
+        }
+
+    }
+}
