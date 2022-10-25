@@ -5,7 +5,7 @@ const Place = () => {
     return (
         <section className="SubPlace Sub">
             <div className="banner">
-                <img src={process.env.PUBLIC_URL + '/assets/images/sub_banner_03.png'} alt="" />
+                <img src={process.env.PUBLIC_URL + '/assets/images/sub_banner_03.jpg'} alt="" />
                 <div className="des">
                     <p>PLACE</p>
                     <h2>From the former palace of the French monarchs<br />

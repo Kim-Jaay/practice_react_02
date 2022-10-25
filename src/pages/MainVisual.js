@@ -28,7 +28,7 @@ const MainVisual = () => {
                         return (
                             <SwiperSlide key={idx}>
                                 <figure>
-                                    <img src={process.env.PUBLIC_URL + `/assets/images/slide_0${idx + 1}.png`} alt="" />
+                                    <img src={process.env.PUBLIC_URL + `/assets/images/slide_0${idx + 1}.jpg`} alt="" />
                                 </figure>
                             </SwiperSlide>
                         )

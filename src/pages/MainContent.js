@@ -17,14 +17,14 @@ const MainContent = () => {
 
             <ul className='con'>
                 <li>
-                    <img src={process.env.PUBLIC_URL + '/assets/images/main_thmb_01.png'} alt="" />
+                    <img src={process.env.PUBLIC_URL + '/assets/images/main_thmb_01.jpg'} alt="" />
                     <h2>Welcome to<br />
                         the Louvre</h2>
                     <p>모나리자, 사모트라케의 날개 달린 승리, 밀로의 비너스, <br />
                         그리고 루브르 박물관의 다른 걸작들을 찾아보세요.</p>
                 </li>
                 <li>
-                    <img src={process.env.PUBLIC_URL + '/assets/images/main_thmb_02.png'} alt="" />
+                    <img src={process.env.PUBLIC_URL + '/assets/images/main_thmb_02.jpg'} alt="" />
                     <h2>Everything you need to know<br />
                         before visiting the museum</h2>
                     <p>이번 전시회는 루브르 박물관을 찾은 관람객들이 16세기 전반<br />
@@ -33,7 +33,7 @@ const MainContent = () => {
                     <Link to="/Explore" >VIEW MORE</Link>
                 </li>
                 <li>
-                    <img src={process.env.PUBLIC_URL + '/assets/images/main_thmb_03.png'} alt="" />
+                    <img src={process.env.PUBLIC_URL + '/assets/images/main_thmb_03.jpg'} alt="" />
                 </li>
             </ul>
 
@@ -64,7 +64,7 @@ const MainContent = () => {
                                 <SwiperSlide>
                                     <Link to={place.link}>
                                         <figure>
-                                            <img src={process.env.PUBLIC_URL + `/assets/images/main_place_0${idx + 1}.png`} alt="" />
+                                            <img src={process.env.PUBLIC_URL + `/assets/images/main_place_0${idx + 1}.jpg`} alt="" />
 
                                             <div className="des">
                                                 <h2>{place.title}</h2>

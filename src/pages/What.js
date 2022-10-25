@@ -5,7 +5,7 @@ const What = () => {
     return (
         <section className="What Sub">
             <div className="banner">
-                <img src={process.env.PUBLIC_URL + '/assets/images/sub_banner_02.png'} alt="" />
+                <img src={process.env.PUBLIC_URL + '/assets/images/sub_banner_02.jpg'} alt="" />
                 <div className="des">
                     <p>WHAT’S ON</p>
                     <h2>Each season, the Louvre showcases<br />

@@ -16,7 +16,7 @@ const Explore = () => {
     return (
         <section className="Explore Sub">
             <div className="banner">
-                <img src={process.env.PUBLIC_URL + '/assets/images/sub_banner_01.png'} alt="" />
+                <img src={process.env.PUBLIC_URL + '/assets/images/sub_banner_01.jpg'} alt="" />
                 <div className="des">
                     <p>EXPLORE</p>
                     <h2>The treasures of the Louvre<br />
